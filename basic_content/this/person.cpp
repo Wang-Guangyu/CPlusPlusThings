@@ -33,7 +33,7 @@ private:
 };
 
 
-int main(){
+int main(){ //中文字符测试
     Person p("zhangsan",20,Person::BOY); 
     cout<<p.get_age()<<endl;
 

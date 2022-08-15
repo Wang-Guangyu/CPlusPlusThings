@@ -24,7 +24,6 @@ inline int Foo(int x,int y) // 函数定义
 // 定义处加inline关键字，推荐这种写法！
 inline void A::f1(int x){
 
-
 }
 
 
