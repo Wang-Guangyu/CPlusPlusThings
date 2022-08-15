@@ -29,4 +29,4 @@ int main(void)
     Derived d; 
     d.fun(); 
     return 0; 
-} 
+}
