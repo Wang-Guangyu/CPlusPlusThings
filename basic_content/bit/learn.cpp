@@ -3,11 +3,11 @@
 using namespace std;
 struct stuff 
 {
-    unsigned int field1: 30;
-    unsigned int       : 2;
+    unsigned int field1: 8;
+//    unsigned int       : 2;
     unsigned int field2: 4;
     unsigned int       : 0;
-    unsigned int field3: 3; 
+    unsigned int field3: 4; 
 };
 int main(){
     struct stuff s={1,3,5};

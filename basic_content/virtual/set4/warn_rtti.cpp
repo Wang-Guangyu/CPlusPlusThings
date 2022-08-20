@@ -30,6 +30,4 @@ class E : private A{
 
 class F : private B{
 
-}
-
-
+};

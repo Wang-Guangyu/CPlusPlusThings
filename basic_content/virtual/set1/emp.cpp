@@ -38,7 +38,7 @@ class Engineer: public Employee {
 // Note that emp[] is an array of pointers and actual pointed objects can 
 // be any type of employees. This function should ideally be in a class  
 // like Organization, we have made it global to keep things simple 
-void globalRaiseSalary(Employee *emp[], int n) 
+void globalRaiseSalary(Employee *emp[], int n)
 { 
     for (int i = 0; i < n; i++) 
         emp[i]->raiseSalary(); // Polymorphic Call: Calls raiseSalary()  
@@ -47,6 +47,6 @@ void globalRaiseSalary(Employee *emp[], int n)
 } 
 int main(){
     Employee *emp[]={new Manager(),new Engineer};
-    globalRaiseSalary(emp,2); 
+    globalRaiseSalary(emp,2);
     return 0;
 }
