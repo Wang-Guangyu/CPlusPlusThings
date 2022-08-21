@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
     int x;
     cin>>x;
     cout<<f(x)<<endl;
-    system("pause");
+//    system("pause");
     return 0;
 }
 
